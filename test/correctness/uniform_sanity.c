@@ -50,7 +50,7 @@ void check_distribution( int counts[]) {
 }
 
 
-int main() {
+int main(void) {
     int i,k;
     int bucket_bit_positions[BITS_TO_BUCKET];
     int bucket[NBUCKETS];

@@ -73,7 +73,7 @@ void bench<MAX_DEPTH>(vector<ticks> *, const void *, const uint64_t *,
   return;
 }
 
-int main() {
+int main(void) {
   size_t max_len = 2048;
   const uint64_t *const data = alloc_random(max_len);
   const void *const r64 = alloc_random(128);

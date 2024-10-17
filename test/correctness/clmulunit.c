@@ -787,7 +787,7 @@ void clhashsanity() {
 
 }
 
-int main() {
+int main(void) {
     clhashsanity();
     clhashavalanchetest();
     lazymod128test();
@@ -798,7 +798,7 @@ int main() {
 }
 
 #else
-int main() {
+int main(void) {
     printf("clmul instruction set not detected. Testing not done.");
     return 0;
 }
